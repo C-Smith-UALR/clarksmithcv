@@ -16,7 +16,7 @@ h2, h3 {
 /*    font-family: 'Nunito', "Lucida Console", sans-serif;*/
 /*}*/
 
-p, dd, dt, #medzoarFooter h6 {
+p, dd, dt, #medzoarFooter h6, .clarkLikeParagraph {
     color: #fdfdfd;
     font-family: 'Nunito', "Lucida Console", sans-serif;
     font-size: 1.5em;
@@ -70,4 +70,33 @@ dt{
 
 dd{
     margin-bottom: 20px;
+}
+
+.iconContainer {
+    text-align: center;
+
+    border-radius: 50%;
+    transition: .5s;
+    margin: 10px 30px;
+    padding: 20px 20px;
+
+}
+
+#socialContainer {
+    text-align: center;
+    /*background-color: #314551;*/
+    padding-top: 40px;
+
+}
+
+#social {
+    margin-top: 40px;
+    border-top: 3px solid #434343;
+
+}
+
+.icon{
+    font-size: 3.5em;
+    color: #fdfdfd;
+    text-shadow: 1px 1px 1px #434343;
 }

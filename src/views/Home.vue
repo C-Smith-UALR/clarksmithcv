@@ -12,7 +12,6 @@
             Clark Smith is a medical doctor and full stack web developer at Medzoar LLC.  He has 7 years of
             clinical experience in Hospice and Palliative Medicine.  This is his professional curriculum vitae.
           </p>
-
         </div>
         <div class="col-sm-12 col-lg-6 pt-3" id="detailsList">
           <dl>
@@ -51,16 +50,60 @@
               <span itemprop="addressLocality">Memphis, </span>
               <span itemprop="addressRegion">TN, </span>
               <span itemprop="addressCountry">USA</span>
-
-
-
             </dd>
 
 
           </dl>
         </div>
-      </div>
-    </div>
+      </div> <!--row-->
+    </div> <!--container-->
+    <div class="container" id="socialContainer">
+      <div class="row">
+        <div class="col-sm col1 iconContainer">
+          <a href="../assets/files/ClarkSmithCV2020.pdf" download>
+            <i class="fa fa-file-pdf-o icon" aria-hidden="true"></i>
+
+          </a>
+          <div style="text-align: center" class="mt-3 clarkLikeParagraph">
+            Resume PDF
+          </div>
+
+
+        </div>
+
+        <div class="col-sm col3 iconContainer">
+          <a href="https://twitter.com/medzoar">
+            <i class="fa fa-twitter icon" aria-hidden="true"></i>
+
+          </a>
+
+        </div>
+
+        <div class="col-sm col4 iconContainer">
+          <a href="https://github.com/medzoarDev">
+            <i class="fa fa-github icon" aria-hidden="true"></i>
+
+          </a>
+
+        </div>
+
+
+        <div class="col-sm col5 iconContainer">
+          <a href="https://www.youtube.com/channel/UCKzyMot66hrkHXVtOxxFMaw">
+
+            <i class="fa fa-youtube icon" aria-hidden="true"></i>
+          </a>
+        </div>
+
+
+
+
+
+
+
+
+      </div> <!-- row -->
+    </div>  <!--container-->
   </div>
 </template>
 
