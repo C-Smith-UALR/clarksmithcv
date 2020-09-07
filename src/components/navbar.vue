@@ -12,7 +12,6 @@
                 <b-collapse id="nav-collapse" is-nav>
                     <b-navbar-nav class="ml-auto">
                         <b-nav-item to="/">home</b-nav-item>
-                        <b-nav-item to="/blog">blog</b-nav-item>
                         <b-nav-item to="/mediums">mediums</b-nav-item>
                         <b-nav-item to="/contact">contact</b-nav-item>
                     </b-navbar-nav>
