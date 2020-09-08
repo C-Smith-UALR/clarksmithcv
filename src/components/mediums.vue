@@ -5,7 +5,7 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="thumbnail">
-                        <a :href="`${publicPath}palm.jpg`">
+                        <a :href="`${publicPath}palm.jpg`" target="_blank">
 
                             <img src="../../public/palm.jpg" alt="palm tree" style="width:100%">
                             <div class="caption">
@@ -19,7 +19,7 @@
 
                 <div class="col-md-4">
                     <div class="thumbnail">
-                        <a :href="`${publicPath}arch.jpg`">
+                        <a :href="`${publicPath}arch.jpg`" target="_blank">
                             <img src="../../public/arch.jpg" alt="St. Louis Gateway Arch" style="width:100%">
                             <div class="caption">
                                 <p>
@@ -32,7 +32,7 @@
 
                 <div class="col-md-4">
                     <div class="thumbnail">
-                        <a :href="`${publicPath}susp.jpg`">
+                        <a :href="`${publicPath}susp.jpg`" target="_blank">
                             <img src="../../public/susp.jpg" alt="suspension bridge in Cape Girardeau, MO" style="width:100%">
                             <div class="caption">
                                 <p>
@@ -79,7 +79,7 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="thumbnail">
-                        <a :href="`${publicPath}bear.jpg`">
+                        <a :href="`${publicPath}bear.jpg`" target="_blank">
 
                             <img src="../../public/bear.jpg" alt="wooden bear statue" style="width:100%">
                             <div class="caption">
@@ -93,7 +93,7 @@
 
                 <div class="col-md-6">
                     <div class="thumbnail">
-                        <a :href="`${publicPath}codyClark.jpg`">
+                        <a :href="`${publicPath}codyClark.jpg`" target="_blank">
                             <img src="../../public/codyClark.jpg" alt="artistic double exposure photo of two men" style="width:100%">
                             <div class="caption">
                                 <p>
