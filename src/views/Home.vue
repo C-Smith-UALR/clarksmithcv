@@ -103,6 +103,7 @@
 
       </div> <!-- row -->
     </div>  <!--container-->
+    <education></education>
   </div>
 </template>
 
@@ -110,12 +111,18 @@
 // @ is an alias to /src
 
 
+
+import education from "../components/education"
+
 export default {
   name: 'Home',
   data () {
     return {
       publicPath: process.env.BASE_URL
     }
+  },
+  components: {
+    'Education': education
   }
 
 }
