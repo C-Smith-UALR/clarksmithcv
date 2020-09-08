@@ -12,6 +12,16 @@ h2, h3 {
     text-align: center;
 }
 
+.card p {
+    color: #434343;
+    font-family: 'Nunito', "Lucida Console", sans-serif;
+    font-size: 1.5em;
+}
+
+.card {
+    /*padding: 5px;*/
+    margin-top: 40px;
+}
 /*body {*/
 /*    color: #333;*/
 /*    font-family: 'Nunito', "Lucida Console", sans-serif;*/
@@ -34,6 +44,7 @@ p, dd, dt, #medzoarFooter h6, .clarkLikeParagraph, th, td {
 
 body {
     background-color: #434343;
+    padding-top: 80px;
 }
 
 #homeName, #socialContainer {
@@ -41,6 +52,13 @@ body {
     margin-bottom: 40px;
     border-bottom: 2px solid #fdfdfd;
     padding-bottom: 10px;
+}
+
+.clarkBorderBottom {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    border-bottom: 2px solid #fdfdfd;
+    padding-bottom: 40px;
 }
 
 #detailsList {

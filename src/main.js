@@ -5,9 +5,11 @@ import { BootstrapVue } from 'bootstrap-vue'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 import './assets/css/styles.css'
+import EnlargeableImage from '@diracleo/vue-enlargeable-image'
 
 Vue.config.productionTip = false
 Vue.use(BootstrapVue)
+Vue.use(EnlargeableImage)
 
 new Vue({
   router,

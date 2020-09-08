@@ -104,6 +104,8 @@
       </div> <!-- row -->
     </div>  <!--container-->
     <education></education>
+    <experience></experience>
+    <skills></skills>
   </div>
 </template>
 
@@ -113,7 +115,8 @@
 
 
 import education from "../components/education"
-
+import experience from "../components/experience"
+import skills from "../components/skills"
 export default {
   name: 'Home',
   data () {
@@ -122,7 +125,9 @@ export default {
     }
   },
   components: {
-    'Education': education
+    'Education': education,
+    'Experience': experience,
+    'Skills': skills
   }
 
 }

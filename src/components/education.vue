@@ -1,6 +1,6 @@
 <template>
     <section id="education">
-        <div class="container">
+        <div class="container clarkBorderBottom">
             <h2>Education</h2>
 
             <table>

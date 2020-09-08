@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
+import mediums from '../components/mediums'
 
 Vue.use(VueRouter)
 
@@ -10,6 +11,13 @@ Vue.use(VueRouter)
     name: 'Home',
     component: Home
   },
+
+  {
+    path: '/mediums',
+    name: 'Mediums',
+    component: mediums
+  },
+
   {
     path: '/about',
     name: 'About',

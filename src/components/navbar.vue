@@ -1,7 +1,7 @@
 <template>
     <section id="navbar">
         <div>
-            <b-navbar toggleable="lg" type="dark" variant="dark">
+            <b-navbar toggleable="lg" type="dark" variant="dark" fixed="top">
                 <b-navbar-brand to="/">
                     <div class="clarkCenter">
                         <b>CS</b>
@@ -13,7 +13,7 @@
                     <b-navbar-nav class="ml-auto">
                         <b-nav-item to="/">home</b-nav-item>
                         <b-nav-item to="/mediums">mediums</b-nav-item>
-                        <b-nav-item to="/contact">contact</b-nav-item>
+
                     </b-navbar-nav>
 
 
