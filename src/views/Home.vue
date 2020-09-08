@@ -60,7 +60,7 @@
     <div class="container" id="socialContainer">
       <div class="row">
         <div class="col-sm col1 iconContainer">
-          <a href="../assets/files/ClarkSmithCV2020.pdf" download>
+          <a :href="`${publicPath}ClarkSmithCV2020.pdf`" download>
             <i class="fa fa-file-pdf-o icon" aria-hidden="true"></i>
 
           </a>
@@ -71,28 +71,27 @@
 
         </div>
 
-        <div class="col-sm col3 iconContainer">
-          <a href="https://twitter.com/medzoar">
-            <i class="fa fa-twitter icon" aria-hidden="true"></i>
-
-          </a>
-
-        </div>
-
         <div class="col-sm col4 iconContainer">
-          <a href="https://github.com/medzoarDev">
+          <a href="https://github.com/C-Smith-UALR">
             <i class="fa fa-github icon" aria-hidden="true"></i>
 
           </a>
+          <div style="text-align: center" class="mt-3 clarkLikeParagraph">
+            Github Profile
+          </div>
 
         </div>
 
 
         <div class="col-sm col5 iconContainer">
-          <a href="https://www.youtube.com/channel/UCKzyMot66hrkHXVtOxxFMaw">
+          <a href="https://www.linkedin.com/in/clark-smith-6095b618b">
 
-            <i class="fa fa-youtube icon" aria-hidden="true"></i>
+            <i class="fa fa-linkedin-square icon" aria-hidden="true"></i>
+
           </a>
+          <div style="text-align: center" class="mt-3 clarkLikeParagraph">
+            LinkedIn Profile
+          </div>
         </div>
 
 
@@ -113,6 +112,11 @@
 
 export default {
   name: 'Home',
+  data () {
+    return {
+      publicPath: process.env.BASE_URL
+    }
+  }
 
 }
 </script>
