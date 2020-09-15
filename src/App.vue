@@ -7,31 +7,154 @@
 </template>
 
 <style>
-  /*h1 {*/
-  /*  color: #434343;*/
-  /*  font-family: 'Source Serif Pro', Georgia, serif;*/
-  /*  font-size: 250%;*/
+  h1 {
+    /*color: #fdfdfd;*/
+    color: #fdfdfd;
+    font-family: 'Source Serif Pro', Georgia, serif;
+    font-size: 250%;
+    text-align: center;
+  }
+  h2, h3 {
+    font-family: 'Source Serif Pro', Georgia, serif;
+    font-weight: lighter;
+    color: #fdfdfd;
+    text-align: center;
+  }
+
+  .card p {
+    color: #434343;
+    font-family: 'Nunito', "Lucida Console", sans-serif;
+    font-size: 1.5em;
+  }
+
+  .card {
+    /*padding: 5px;*/
+    margin-top: 40px;
+  }
+  /*body {*/
+  /*    color: #333;*/
+  /*    font-family: 'Nunito', "Lucida Console", sans-serif;*/
   /*}*/
-/*#app {*/
-/*  font-family: Avenir, Helvetica, Arial, sans-serif;*/
-/*  -webkit-font-smoothing: antialiased;*/
-/*  -moz-osx-font-smoothing: grayscale;*/
-/*  text-align: center;*/
-/*  color: #2c3e50;*/
-/*}*/
 
-/*#nav {*/
-/*  padding: 30px;*/
-/*}*/
+  p, dd, dt, #medzoarFooter h6, .clarkLikeParagraph, th, td {
+    color: #fdfdfd;
+    font-family: 'Nunito', "Lucida Console", sans-serif;
+    font-size: 1.5em;
+  }
 
-/*#nav a {*/
-/*  font-weight: bold;*/
-/*  color: #2c3e50;*/
-/*}*/
+  #medzoarFooter h6 {
+    color: #fdfdfd;
 
-/*#nav a.router-link-exact-active {*/
-/*  color: #42b983;*/
-/*}*/
+  }
+
+  /*#home img {*/
+  /*    box-shadow: 4px 4px 4px #434343;*/
+  /*}*/
+
+  body {
+    background-color: #434343;
+    padding-top: 80px;
+  }
+
+  #homeName, #socialContainer {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    border-bottom: 2px solid #fdfdfd;
+    padding-bottom: 10px;
+  }
+
+  .clarkBorderBottom {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    border-bottom: 2px solid #fdfdfd;
+    padding-bottom: 40px;
+  }
+
+  #detailsList {
+    text-align: center;
+  }
+
+  /* ------ Helper Classes -------*/
+  .visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    white-space: nowrap; /* 1 */
+  }
+
+  #home p {
+    text-align: justify;
+  }
+
+  #home {
+    padding-top: 60px;
+  }
+
+  dt{
+    padding: 10px 0;
+    border-bottom:1px solid #fdfdfd;
+  }
+
+  dd{
+    margin-bottom: 20px;
+  }
+
+  .iconContainer {
+    text-align: center;
+
+    border-radius: 50%;
+    transition: .5s;
+    margin: 10px 30px;
+    padding: 20px 20px;
+
+  }
+
+  #socialContainer {
+    text-align: center;
+    /*background-color: #314551;*/
+    padding-top: 40px;
+
+  }
+
+  #social {
+    margin-top: 40px;
+    border-top: 3px solid #434343;
+
+  }
+
+  .icon{
+    font-size: 3.5em;
+    color: #fdfdfd;
+    text-shadow: 1px 1px 1px #434343;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  .clarkNotHead:nth-of-type(odd) {
+    background: #42b983;
+  }
+
+  th {
+    background: #434343;
+  }
+
+  td, th {
+    padding: 6px;
+    text-align: left;
+    border: 1px solid #fdfdfd;
+
+  }
+
+  /*  ////////////////////////////  queries //////////////////// */
+
 </style>
 <script>
   import navbar from "./components/navbar";
