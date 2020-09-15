@@ -50,5 +50,44 @@
 </script>
 
 <style scoped>
+    @media only screen and (max-width: 780px), (min-device-width: 768) and (max-device-width: 1024px) {
+        table, thead, tbody, th, td, tr {
+            display: block;
+        }
+
+        thead tr {
+            position: absolute;
+            top: -9999px;
+            left: -9999px;
+        }
+
+        tr {
+            border: 1px solid #fdfdfd;
+        }
+
+        td {
+            border: none;
+            border-bottom: 1px solid #fdfdfd;
+            position: relative;
+            padding-left: 50%;
+        }
+
+        td:before {
+            position: absolute;
+            top: 6px;
+            left: 6px;
+            width: 45%;
+            padding-right: 10px;
+            white-space: nowrap;
+        }
+
+        td:nth-of-type(1):before { content: "Degree"; }
+        td:nth-of-type(2):before { content: "Subject"; }
+        td:nth-of-type(3):before { content: "University"; }
+        td:nth-of-type(4):before { content: "Start Date"; }
+        td:nth-of-type(5):before { content: "End Date"; }
+
+
+    }
 
 </style>

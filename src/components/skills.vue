@@ -19,7 +19,7 @@
                     <div class="card">
                         <div class="card-body">
                             <h4 class="card-title">AI</h4>
-                            <p>Leveraging Python libraries to set up and train neural networks(CNN, LTSM, ResNet), for applications in
+                            <p>Leveraging Python libraries to set up and train neural networks(CNN, LSTM, ResNet), for applications in
                                 image classification(MNIST), clinical diagnostics, and other models.
                             </p>
                             <a :href="`${publicPath}clarkSmithAiCert.pdf`" download>Certificate</a>
